@@ -1,0 +1,110 @@
+/* Notes to self:
+    if you do stuff like align-items, anything to control their location, do it on the specific div, otherwise if you chain it, a superior one will mess with the lowers
+*/
+
+/* Main Body */
+body{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+/* Header */
+#header{
+    /* display: flex; */
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Links */
+#links{
+    /* background-color: rgb(255, 0, 255); */
+    display: flex;
+    justify-content: end;
+}
+
+#courseLinks, #searchInput{
+    margin: 0px 5px 0px 5px;
+}
+
+#collapsible img{
+    height: 15px;
+    width: 15px;
+}
+
+/* Intro */
+#introduction{
+    font-size: 40px;
+    background-color: rgb(204, 153, 255);
+    display: flex;
+    justify-content: center;
+    padding: 30px 5px 30px 5px;
+}
+
+/* Statement */
+#statement{
+    display: flex;
+    padding: 30px 5px 30px 5px;
+    /* Text */
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+    /* Background */
+    /* Note: the image is looping around, so find a way to fix that */
+    background-image: url('images/belief.jpg');
+    background-size: 1600px 900px;
+}
+
+/* Mailing List */
+#mailing_list{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: rgb(255, 153, 255);
+    /* justify-content: space-between; */
+}
+
+#socialMedia1{
+    flex:1;
+    width: 50%;
+}
+
+#socialMedia1 li, #socialMedia1 a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#mailContact{
+    padding-top: 20px;;
+    display: flex;
+    /* flex:1; */
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+#fullName, #email, #message{
+    /* display:flex; */
+    /* flex-direction: row; */
+    flex: 1;
+}
+
+/* Footer */
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+
+#socialMediaContacts li{
+    display: inline-block;
+}
+
+#socialMediaContacts li img{
+    /* display: flex; */
+    width: 30px;
+    height: 30px;
+}
