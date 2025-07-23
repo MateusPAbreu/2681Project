@@ -1,0 +1,136 @@
+/* Credits: https://www.youtube.com/watch?v=NCLdf661ILE
+This video was my reference in learning to do the flip card effect
+*/
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/flowers_background.jpg);
+    background-size: 100% 120%;
+}
+
+/* Main Body & Cards */
+.title {
+    text-align: center;
+}
+
+#benefits {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+#for_parents h1,
+#for_teens h1 {
+    text-align: center;
+}
+
+#for_parents,
+#for_teens {
+    width: 50%;
+    position: relative;
+}
+
+#for_parents .front,
+#for_parents .back,
+#for_teens .front,
+#for_teens .back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+#for_parents,
+#for_teens {
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+
+#for_parents:hover,
+#for_teens:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+div.front {
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+    /* height: 160%; */
+}
+
+#for_parents .front {
+    background-image: url('images/list_parents.jpg');
+    background-size: 100% 100%;
+}
+
+#for_teens .front {
+    background-image: url(images/list_teens.jpg);
+    background-size: 100% 100%;
+}
+
+#for_parents .back,
+#for_teens .back {
+    background-color: pink;
+    transform: rotateY(180deg);
+}
+
+/* List */
+li {
+    padding-bottom: 10px;
+}
+
+/* Free class button */
+#free_class button {
+    color: white;
+    background-color: pink;
+    width: 120px;
+    height: 40px;
+}
+
+#free_class a {
+    text-decoration: none;
+}
+#free_class button:hover{
+    color: rgb(238,130,238);
+    background-color: aqua;
+    text-decoration: none;
+}
+#free_class a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#free_class {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    margin-top: 43%;
+}
+
+/* Footer */
+#footer {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+#socialMediaContacts li {
+    display: inline-block;
+}
+
+#socialMediaContacts li img {
+    /* display: flex; */
+    width: 30px;
+    height: 30px;
+}

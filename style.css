@@ -93,10 +93,11 @@ body{
 
 /* Footer */
 #footer{
+    /* position: absolute; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    height: 45px;
+    margin-top: auto;
 }
 
 #socialMediaContacts li{
