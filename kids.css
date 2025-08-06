@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+    width: 99%;
+}
+
+/* Header */
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/middle-school.jpg);
+    background-size: 100%;
+    height: 280px;
+    color: pink;
+    text-shadow: 1px 1px black;
+}
+
+#header button{
+    border: none;
+    height: 30px;
+    background-color: rgb(0,191,255);
+    color: white;
+    font-weight: bold;
+}
+
+#header button:hover{
+    height: 35px;
+}
+
+/* Main Body */
+#intuition{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* text-shadow: 1px 1px black; */
+    background-color: pink;
+    padding: 0px 10px 0px 10px;
+    font-size: large;
+    padding-top: 10px;
+}
+
+#intuition mark{
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#intuition #title{
+    text-align: center;
+}
+
+#title{
+    background-image: url(../images/belief.jpg);
+    background-size: 100%;
+    width: 100%;
+}
+
+#title h1, #title h2{
+    color: black;
+}
+
+/* Learn more */
+#to_learn{
+    text-align: center;
+    background-color: pink;
+}
+
+#learn_more mark{
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(255,20,147);
+}
+
+#learn_title:hover + #learn_more{
+    display: block;
+}
+
+/* Free Class */
+/* Buttons */
+#free_class{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+    background-image: url(../images/flowers_background.jpg);
+    background-position: center;
+    background-size: 70%;
+}
+
+#free_class a{
+    text-decoration: none;
+}
+
+#free_class button:hover, a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    width: 120px;
+    height:30px;
+}

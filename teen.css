@@ -1,0 +1,47 @@
+#header{
+    background-image: url(../images/highschool.jpg);
+    background-position: 100% 25%;
+}
+
+strong{
+    color:rgb(255,255,0);
+    text-shadow: 1px 1px black;
+}
+
+/* Intuitive Leadership */
+#intuitive_leadership{
+    background-color: rgb(255,182,193);
+    padding: 0px 5px 0px 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+mark{
+    background-color: blue;
+}
+
+.body{
+    background-color: rgb(255,192,203);
+    padding: 0px 5px 0px 5px;
+    outline-style: solid;
+}
+
+/* My Story My Voice */
+#story_voice{
+    background-color: rgb(255,105,180);
+    padding: 0px 5px 0px 5px;
+}
+
+/* Writing without rules */
+#no_rules{
+    background-color: rgb(255,20,147);
+    padding: 0px 5px 0px 5px;
+}
+
+/* Own Anthology */
+#own_anthology{
+    background-color: rgb(199,21,133);
+    padding: 0px 5px 0px 5px;
+}
