@@ -1,0 +1,77 @@
+/* Header */
+#reg_header{
+    background-image: url(images/reg_header.jpg);
+    background-size: 100%;
+    background-position: 100% 30%;
+    padding: 5px 20px 10px 20px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+/* Body */
+#reg_body{
+    background-color: pink;
+}
+
+#text_body{
+    padding: 5px 30px 15px 30px;
+}
+
+#form{
+    /* outline: 1px solid black; */
+    background-color: rgb(135,206,235);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+#name, #email, #tel, #city, #age, #schedule{
+    margin-bottom: 10px;
+}
+
+#form input{
+    width: 60%;
+}
+
+#form input:focus:valid{
+    background-color: rgb(127,255,0);
+}
+
+#form input:focus:invalid{
+    background-color: rgb(220,20,60);
+}
+
+/* Buttons */
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    border: none;
+}
+
+#reset, #submit{
+    background-color: yellow;
+}
+
+#reset:hover, #submit:hover{
+    background-color: rgb(255,20,147);
+}
+
+/* Learn more */
+#learn_more{
+    text-align: center;
+    background-color: pink;
+}
+
+#reg_body a{
+    text-decoration: none;
+    color: rgb(255,255,0);
+    text-shadow: 1px 1px black;
+}
+
+#reg_body a:hover{
+    color: white;
+    background-color: rgb(255,255,0);
+}
