@@ -1,0 +1,64 @@
+#book_header{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgb(255,105,180);
+}
+
+/* Book introduction */
+#cover_img img{
+    width: 65%;
+    height: 90%;
+}
+
+#book{
+    background-image: linear-gradient(rgb(255,105,180), rgb(219,112,147), rgb(135,206,235), rgb(30,144,255), rgb(0,0,205), rgb(0,0,139));
+}
+
+#book_intro{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#intro_text{
+    padding-left: 25px;
+}
+
+#book_explain, #what_in{
+    padding: 0px 45px 0px 45px;
+}
+
+#what_in ol{
+    background-color: yellow;
+    width: 180px;
+}
+
+/* Copy */
+#buy_copy{
+    background-color: yellow;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#buy_copy h1{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#buy_copy a{
+    text-decoration: none;
+    color: black;
+}
+
+#buy_copy button{
+    border: none;
+    height: 30px;
+    background-color: pink;
+}
+
+#buy_copy button:hover{
+    /* border: none; */
+    height: 40px;
+    background-color: blue;
+}
