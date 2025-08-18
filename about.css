@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 99%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Elizabeth introduction card effect*/
+#intro {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+#intro:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+#elizabeth_intro img{
+    height: 400px;
+}
+
+#elizabeth_intro{
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+
+#elizabeth_intro,
+#elizabeth_account {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+#elizabeth_account{
+    transform: rotateY(180deg);
+}
+
+/* Elizabeth intro */
+#elizabeth_intro{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Abigail */
+#abigail{
+    margin-top: 40px;
+}
+
+/* Advisory team */
+#advisory_team, #team{
+    display: flex;
+    flex-direction: row;
+}
+
+#team img{
+    width: 30em;
+    height: 25em;
+}
+
+#slide2, #slide3, #slide4, #slide5, #slide6{
+    display: none;
+}
+
+#team{
+    /* position: absolute; */
+}
