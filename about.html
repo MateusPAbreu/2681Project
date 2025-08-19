@@ -14,11 +14,11 @@
     <!-- Have a card, the front the introduction, the second the text talking about writing -->
     <div id="intro">
         <div id="elizabeth_intro">
-            <div>
+            <div id="elizabeth_img">
                 <img src="images/elizabeth.avif">
             </div>
 
-            <div>
+            <div id="elizabeth_text">
                 <h1>Elizabeth Perlman, MA</h1>
                 <p>Hello fellow storytellers! My name is Elizabeth and I created The Intuitive Writing Project because
                     it's
@@ -44,7 +44,6 @@
                     believe our stories are the evidence. I believe our stories contain our magic. And I believe that
                     storytelling is how we heal, uplift, and redesign our lives."
                 </p>
-                <a href="elizabeth@intuitivewritingproject.org"><button type="Button">Enter in contact!</button></a>
             </div>
         </div>
 
@@ -125,27 +124,39 @@
 
         </div>
     </div>
+    <div id="contact_button">
+        <a href="elizabeth@intuitivewritingproject.org"><button type="Button">Enter in contact!</button></a>
+    </div>
 
     <div id="abigail">
-        <p>Marketing Intern</p>
-        <h2>Abigail Thoren (she/her)</h2>
+        <div id="abigail_text">
+            <h1><mark>Marketing Intern</mark></h1>
+            <h2>Abigail Thoren (she/her)</h2>
 
-        <p>When it comes to writing, Abigail says, “The practice of writing has been more significant for me than I ever
-            could’ve imagined. Whether I’m creating connections, developing my voice, or even just clarifying my
-            thoughts and ideas, writing has shaped the way I think and live. Writing is powerful, writing is freeing,
-            and I want every young person to experience this power and freedom.”</p>
-        <p>Abigail has a BA in Marketing from the University of Iowa and will be completing her MBA from the University
-            of Southern Indiana in August.</p>
-        <p>She is currently living in Nashville, TN, with her partially blind corgi, Blink. When Abigail isn’t trudging
-            through schoolwork, you can find her at the local coffee shop, fulfilling her passion for latte art and
-            getting to meet and connect with tourists from all over the world.</p>
-        <p>You can email her <a href="thorenabigail@gmail.com">here</a>.</p>
+            <p>When it comes to writing, Abigail says, <strong>“The practice of writing has been more significant for me than I
+                ever
+                could’ve imagined. Whether I’m creating connections, developing my voice, or even just clarifying my
+                thoughts and ideas, writing has shaped the way I think and live. Writing is powerful, writing is
+                freeing,
+                and I want every young person to experience this power and freedom.”</strong></p>
+            <p>Abigail has a BA in Marketing from the University of Iowa and will be completing her MBA from the
+                University
+                of Southern Indiana in August.</p>
+            <p>She is currently living in Nashville, TN, with her partially blind corgi, Blink. When Abigail isn’t
+                trudging
+                through schoolwork, you can find her at the local coffee shop, fulfilling her passion for latte art and
+                getting to meet and connect with tourists from all over the world.</p>
+            <p>You can email her <a href="mailto:thorenabigail@gmail.com">here</a>.</p>
+        </div>
+        <div id="abigail_img">
+            <img src="images/abigail.avif">
+        </div>
     </div>
 
     <h1>My Youth Advisory Team</h1>
     <div id="advisory_team">
         <div id="back">
-            <button onclick="back()">-></button>
+            <button onclick="back()">←</button>
         </div>
         <div id="team">
             <div id="slide1">
@@ -160,12 +171,13 @@
                 <p>Writing matters because words are the fabric of our world; they make us feel understood and have the
                     power to ignite our passions. For me, The Intuitive Writing Project is a safe space for young
                     individuals to write and create without reserve, a place to discover one’s authentic voice and speak
-                    it confidently. </p>
+                    it confidently.
+                </p>
             </div>
 
             <div id="slide2">
                 <img src="images/CarolineH.avif">
-                <strong>Caroline Hesby</strong> (she/her)<br>
+                <figcaption><strong>Caroline Hesby</strong> (she/her)</figcaption><br>
 
                 Youth Advisor<br>
 
@@ -182,7 +194,7 @@
 
             <div id="slide3">
                 <img src="images/ReaganK.avif">
-                <strong>Reagan Kaelle</strong> (she/her)<br>
+                <figcaption><strong>Reagan Kaelle</strong> (she/her)</figcaption><br>
 
                 Youth Advisor<br>
 
@@ -197,7 +209,7 @@
 
             <div id="slide4">
                 <img src="images/AudreyL.avif">
-                <strong>Audrey Lambert</strong> (she/her)<br>
+                <figcaption><strong>Audrey Lambert</strong> (she/her)</figcaption><br>
 
                 Youth Advisor<br>
 
@@ -213,7 +225,7 @@
 
             <div id="slide5">
                 <img src="images/JuliaL.avif">
-                <strong>Julia Lima</strong> (she/her)<br>
+                <figcaption><strong>Julia Lima</strong> (she/her)</figcaption><br>
 
                 Youth Advisor<br>
 
@@ -247,7 +259,7 @@
             </div>
         </div>
         <div id="forward">
-            <button>-></button>
+            <button onclick="forward()">→</button>
         </div>
     </div>
 
