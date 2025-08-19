@@ -3,9 +3,10 @@ html {
     width: 99%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
 
 /* Elizabeth introduction card effect*/
@@ -24,13 +25,14 @@ body{
     transform: rotateY(180deg);
 }
 
-#elizabeth_intro img{
+#elizabeth_intro img {
     height: 400px;
 }
 
-#elizabeth_intro{
+#elizabeth_intro {
     transition: transform 2s;
     transform-style: preserve-3d;
+    background-image: linear-gradient(rgb(255, 182, 193), rgb(219, 112, 147), rgb(255, 20, 147));
 }
 
 #elizabeth_intro,
@@ -39,36 +41,131 @@ body{
     backface-visibility: hidden;
 }
 
-#elizabeth_account{
+#elizabeth_account {
     transform: rotateY(180deg);
+    padding: 0px 15px 0px 15px;
+    background-image: linear-gradient(rgb(176, 224, 230), rgb(135, 206, 250), rgb(65, 105, 225));
+    padding-bottom: 10px;
+}
+
+#elizabeth_text {
+    padding-left: 10px;
 }
 
 /* Elizabeth intro */
-#elizabeth_intro{
+#elizabeth_intro {
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
+}
+
+/* Contact button */
+#contact_button {
+    padding-top: 55px;
+    padding-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#contact_button button{
+    border: none;
+    height: 30px;
+}
+
+#contact_button button:hover{
+    height: 40px;
 }
 
 /* Abigail */
+#abigail h1, #abigail h2{
+   text-align: center;
+}
+
+#abigail mark{
+    background-color: pink;
+}
+
 #abigail{
-    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    outline: 3px solid black;
+    padding: 0px 15px 0px 15px;
+}
+
+#abigail_text{
+    padding: 0px 15px 0px 15px;
+}
+
+#abigail_text a{
+    text-decoration: none;
+}
+
+#abigail_text a:hover{
+    color: white;
+    background-color: blue;
+}
+
+#abigail img{
+    height: 320px;
 }
 
 /* Advisory team */
-#advisory_team, #team{
+#advisory_team,
+#team {
     display: flex;
     flex-direction: row;
 }
 
-#team img{
+#team {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    /* width: 200px; */
+}
+
+#team img {
     width: 30em;
     height: 25em;
 }
 
-#slide2, #slide3, #slide4, #slide5, #slide6{
-    display: none;
+#slide1 {
+    position: relative;
 }
 
-#team{
-    /* position: absolute; */
+#slide2,
+#slide3,
+#slide4,
+#slide5,
+#slide6 {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5,
+#slide6 {
+    width: 30%;
+}
+
+#back,
+#forward {
+    z-index: 2;
+}
+
+/* Buttons */
+#back button, #forward button{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+#footer{
+    background-color: white;
 }
