@@ -1,22 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Published Writing</title>
+    <link href="style.css" rel="stylesheet">
+
 </head>
+
 <body>
     <div id="header">
         <h1><a href="#">The Intuitive Voice</a></h1>
         <h1>+ Our Published Anthologies</h1>
-<!-- some links missing here on p -->
-        <p> 
-            Although a lot of what is shared in class is too personal to be published, you can read some of our students' incredible writing on our current literary blog,
-            The Intuitive Voice as well as our previous blog (a written time capsule for life during shelter-in-place) Pens of the Pandemic. 
-            This is also where you can order copies of our published student anthologies. And don't forget to check out The Intuitive Writing Podcast, 
+        <!-- some links missing here on p -->
+        <p>
+            Although a lot of what is shared in class is too personal to be published, you can read some of our
+            students' incredible writing on our current literary blog,
+            The Intuitive Voice as well as our previous blog (a written time capsule for life during shelter-in-place)
+            Pens of the Pandemic.
+            This is also where you can order copies of our published student anthologies. And don't forget to check out
+            The Intuitive Writing Podcast,
             in which our writers read their words out loud and discuss their creative process.
         </p>
     </div>
     <!-- This is where there will be the horizontal scroll option to see the books -->
+
+    <div id="books_slides">
+        <div id="back">
+            <button onclick="back()">←</button>
+        </div>
+        <div id="books">
+            <div id="book1">
+                <img src="images/books/Remergence_Just_Front.avif">
+                <figcaption>Reemergence —The Power of Young Writers, Reclaiming Their Lives: The Fifth Anthology of the
+                    Intuitive Writing Project</figcaption>
+                <p>Copyright 2023, 85 authors / 270 pages</p>
+                <a
+                    href="https://www.blurb.com/b/11695722-reemergence-the-power-of-young-writers-reclaiming?srsltid=AfmBOopr_XfrTwkvcYrdmesClHKz6rTHqdHmxh7Wdt-lABZ-ALODXKVE">
+                    $25 on Blurb
+                </a>
+                <p>All proceeds fund full + partial need-based scholarships</p>
+            </div>
+
+            <div id="book2">
+                <img src="images/books/Pens_Cover.avif">
+                <figcaption>Pens of the Pandemic— The Wisdom of Young Writers Throughout COVID-19: The Fourth Anthology
+                    of
+                    The Intuitive Writing Project</figcaption>
+                <p>Copyright 2021 81 authors / 264 pages</p>
+                <a href="https://www.blurb.com/b/10880087-pens-of-the-pandemic-the-wisdom-of-young-writers">
+                    $25 on Blurb
+                </a>
+                <p>All proceeds fund full + partial need-based scholarships</p>
+            </div>
+
+            <div id="book3">
+                <img src="images/books/Open2Change_Cover.avif">
+                <figcaption>Open to Change: The Third Anthology of The Intuitive Writing Project</figcaption>
+                <p>Copyright 2019 28 authors / 136 pages</p>
+                <a href="https://www.blurb.com/b/9738869-open-to-change">
+                    $20 on Blurb
+                </a>
+                <p>All proceeds fund full + partial need-based scholarships</p>
+            </div>
+
+            <div id="book4">
+                <img src="images/books/Hear_Our_Voice.jpg">
+                <figcaption>Hear Our Voice: The Second Anthology of The Intuitive Writing Project</figcaption>
+                <p>Copyright 2018 32 authors /129 pages</p>
+                <a href="https://www.blurb.com/b/8944567-hear-our-voice">
+                    $20 on Blurb
+                </a>
+                <p>All proceeds fund full + partial need-based scholarships</p>
+            </div>
+
+            <div id="book5">
+                <img src="images/books/TIWP_6x9_Front_Cover.avif">
+                <figcaption>Declare What You Know To Be True: The First Anthology of The Intuitive Writing Project
+                </figcaption>
+                <p>Copyright 2017 25 authors / 160 pages</p>
+                <a
+                    href="https://www.lulu.com/en/us/shop/the-young-women-of-the-intuitive-writing-project/declare-what-you-know-to-be-true/paperback/product-1vj9rgjn.html?page=1&pageSize=4">
+                    $20 on Lulu Press
+                </a>
+                <p>All proceeds fund full + partial need-based scholarships</p>
+            </div>
+
+            <div id="book6">
+                <p>Of our first three solo anthologies</p>
+                <img src="images/books/Caroline_FINALfrontcover.avif">
+                <figcaption>Mourning Dove, Blazing Sun: An Anthology of Writing by Caroline Hesby
+                </figcaption>
+                <p>Copyright 2022 98 pages / 6x9"</p>
+                <p>The writing in this book was compiled during the summer following her graduation from Acalanes High
+                    School after 3 years of writing with TIWP.</p>
+                <a href="https://www.blurb.com/b/11245897-mourning-dove-blazing-sun">
+                    $15.47 on Blurb
+                </a>
+                <p>All proceeds go to the author.</p>
+            </div>
+
+            <div id="book7">
+                <p>Of our first three solo anthologies</p>
+                <img src="images/books/Kayli_Front.avif">
+                <figcaption>Reaching From the Roots: An Anthology of Writing by Kayli Harley
+                </figcaption>
+                <p>Copyright 2022 54 pages / 5x8"</p>
+                <p>The writing in this book was compiled during the summer following her graduation from Acalanes High
+                    School after 3 years of writing with TIWP.</p>
+                <a href="https://www.blurb.com/b/11248598-reaching-from-the-roots">
+                    $14.59 on Blurb
+                </a>
+                <p>All proceeds go to the author.</p>
+            </div>
+
+            <div id="book8">
+                <p>Of our first three solo anthologies</p>
+                <img src="images/books/Katerina_Front2.avif">
+                <figcaption>Go Buy Yourself Flowers (Or Steal Them) — An Anthology of Writing by Katerina Bonderud
+                </figcaption>
+                <p>Copyright 2022 222 pages / 5x8"</p>
+                <p>The writing in this book was compiled during the summer following her graduation from Miramonte High School after 7 years of writing with TIWP.</p>
+                <a href="https://www.blurb.com/b/11264440-go-buy-yourself-flowers">
+                    $14.95 on Blurb
+                </a>
+                <p>All proceeds go to the author.</p>
+            </div>
+        </div>
+        <div id="forward">
+            <button onclick="forward()">→</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <ul id="socialMediaContacts">
+            <li><a href="#"><img src="images/wordPressLogo.jpg" alt="WordPress"></a></li>
+            <li><a href="#"><img src="images/linkedinLogo.png" alt="Linkedin"></a></li>
+            <li><a href="#"><img src="images/spotifyLogo.png" alt="Spotify"></a></li>
+            <li><a href="#"><img src="images/podcast.gif" alt="Podcast"></a></li>
+            <li><a href="#"><img src="images/facebookLogo.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/youtubeLogo.png" alt="Youtube"></a></li>
+            <li><a href="#"><img src="images/instagramLogo.png" alt="Instagram"></a></li>
+        </ul>
+    </div>
 </body>
+
 </html>
