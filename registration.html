@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="registration.css" rel="stylesheet">
+    <link href="programs/kids.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <button id="collapsible" onclick="callNavbar();"><img src="images/hamburger-menu.webp"></button>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="acceptances.html">Acceptances</a></li>
+            <li><a href="benefits.html">Benefits</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="offer.html">Offer</a></li>
+            <li><a href="published_writing.html">Published Writing</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="tuition.html">Tuition</a></li>
+        </ul>
+    </div>
+
+    <div id="reg_header">
+        <h1>Registration</h1>
+        <h2>If you're new to Intuitive Writing and aren't sure what class to choose...</h2>
+    </div>
+
+    <div id="reg_body">
+        <div id="text_body">
+            <h3>If you're new to The Intuitive Writing Project, I’d love to schedule a quick, 10-minute chat!</h3>
+
+            <p>I am here to listen to and support to your daughter’s authentic self-expression, to celebrate her
+                brilliance, and to hold space for her continuous self-discovery and growth.</p>
+
+            <p>This is the work I was born to do, what I call "my soul work," so connection is everything—and starts
+                with
+                YOU!
+            </p>
+
+            <p>If you are new to The Intuitive Writing Project, I’d love to schedule a short, 10-minute
+                conversation, just
+                to connect in person. I want to give you the chance to meet me, to be able to ask questions, and to
+                make
+                sure our programs are a good fit for your daughter. I also want to learn from you about your
+                daughter’s
+                unique interests and needs, and what you'd like her to be focusing on right now.</p>
+
+            <p>Together, we can discuss which program might best support your daughter. And as you will hear me say
+                a lot,
+                your daughter is welcome to <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScsHaYQoFeA6JRLYGbE6Ni2E6uM0VPACx89N9jxKM2AkjOx8g/viewform">try
+                    a free intro class</a> anytime. If she doesn't absolutely love her first
+                class—I
+                mean really, really love it—we want her to feel empowered to say no and focus her energy on
+                something else.</p>
+
+            <p>Please throw out a few days and times that would be good for a quick call (maybe while you’re in the
+                car or
+                out for a walk so it’s easy) and we’ll get something on the calendar. And whenever you're ready to
+                register,
+                you can visit us <a href="#">here</a>.</p>
+
+            — Elizabeth
+        </div>
+
+        <div id="form">
+            <form>
+                <label for="name">First & Last Name:</label> <br>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="tel">Telephone:</label> <br>
+                <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <br>
+                <label for="city">City & State:</label> <br>
+                <input type="text" id="city" name="city">
+                <br>
+                <label for="age">Your daughter's current age:</label> <br>
+                <input type="number" id="age" name="age" min="1" max="20">
+                <br>
+                <label for="schedule">Three days & times you could schedule a 10-minute phone call:</label> <br>
+                <input type="text" id="schedule" name="schedule">
+                <br>
+
+                <div id="button">
+                    <input id="reset" type="reset" value="Reset" />
+                    <input id="submit" type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- WHAT HAPPENS IN WRITING PROJECT -->
+    <div id="learn_more">
+        <p><mark>
+                Learn about the basic structure of our weekly classes
+                in this <a
+                    href="https://www.intuitivewritingproject.org/podcast/episode/4ebfc440/what-happens-in-an-intuitive-writing-project-class">7
+                    min. podcast!</a>
+            </mark></p>
+    </div>
+
+    <div id="free_class">
+        <button><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScsHaYQoFeA6JRLYGbE6Ni2E6uM0VPACx89N9jxKM2AkjOx8g/viewform"
+                target="_blank">Try a free class!
+            </a></button>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <ul id="socialMediaContacts">
+            <li><a href="#"><img src="images/wordPressLogo.jpg" alt="WordPress"></a></li>
+            <li><a href="#"><img src="images/linkedinLogo.png" alt="Linkedin"></a></li>
+            <li><a href="#"><img src="images/spotifyLogo.png" alt="Spotify"></a></li>
+            <li><a href="#"><img src="images/podcast.gif" alt="Podcast"></a></li>
+            <li><a href="#"><img src="images/facebookLogo.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/youtubeLogo.png" alt="Youtube"></a></li>
+            <li><a href="#"><img src="images/instagramLogo.png" alt="Instagram"></a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

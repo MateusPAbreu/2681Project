@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    width: 99%;
+    background-image: linear-gradient(0deg, rgb(255, 204, 255), rgb(255, 0, 255));
+}
+
+body{
+    height: 100%;
+    background-image: linear-gradient(0deg, rgb(255, 204, 255), rgb(255, 0, 255));
+}
+
+/* Header */
+#impact{
+    padding: 25px;
+    text-align: center;
+    background-image: url(images/flowers_background.jpg);
+    background-size: 100%;
+    background-position: 70%;
+    color: white;
+    text-shadow: 1px 1px black;
+    /* background-repeat: no-repeat; */
+}
+
+mark{
+    text-shadow: none;
+}
+
+/* Main body */
+#feel_more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#feel_more div{
+    width: 20%;
+    margin: 50px 15px 0px 15px;
+}
+
+#feel_1, #feel_2, #feel_3, #feel_4{
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+}
+
+#feel_1 h2, #feel_2 h2, #feel_3 h2, #feel_4 h2{
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+#feel_1:hover, #feel_2:hover, #feel_3:hover, #feel_4:hover{
+    padding: 5px;
+    border: 8px solid black;
+}
+
+/* Footer */
+#footer{
+    bottom: auto;
+}

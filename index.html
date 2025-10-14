@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Intuitive Writing Project</title>
     <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 
 <body>
     <!-- Header -->
     <div id="header">
         <div id="links">
-            <a id="coursesLinks" href="#">Programs</a>
-            <input type="search" id="searchInput"/>
-            <button id="collapsible"><img src="images/hamburger-menu.webp"></button>
+            <div>
+                <a id="coursesLinks" href="#">Programs</a>
+                <input type="search" id="searchInput" />
+                <button id="collapsible" onclick="callNavbar();"><img src="images/hamburger-menu.webp"></button>
+            </div>
+
+            <div id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="acceptances.html">Acceptances</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="impact.html">Impact</a></li>
+                    <li><a href="offer.html">Offer</a></li>
+                    <li><a href="published_writing.html">Published Writing</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="tuition.html">Tuition</a></li>
+                </ul>
+            </div>
         </div>
         <div id="introduction">
-            The Intuitive Writing Project offers a safe space for girls and gender-expansive youth to speak their truth, 
+            The Intuitive Writing Project offers a safe space for girls and gender-expansive youth to speak their truth,
             find their voice, and learn to believe in themselves, both as writers and leaders.
         </div>
-        
     </div>
 
     <!-- Statement -->
@@ -28,14 +48,19 @@
             <h1 id="firstLine">WE BELIEVE</h1>
             <h2 id="secondLine">We believe in the power of telling your story.</h2>
             <div id="textBody">
-            We believe that everyone has their own intuitive wisdom—and that we access it when we write. 
-            We believe in the strength of community, the catharsis of writing, and the magic that happens when we all write together. 
-            We believe that writing is both the way in and the way through, that when we write we discover who we are, what we need and how we want to live. 
-            We believe in confidence-building from the inside out, affirming the brilliance of each young woman and the vulnerability of each young man. 
-            We believe that writing cultivates self-knowledge which cultivates self-esteem which is the foundation of all true happiness and success. 
-            We believe intuitive young people will become the leaders and change-makers our world needs most. 
-            We envision a world in which everyone has the confidence to direct their own life—to realize their value, 
-            trust their voice and declare what they know to be true.
+                We believe that everyone has their own intuitive wisdom—and that we access it when we write.
+                We believe in the strength of community, the catharsis of writing, and the magic that happens when we
+                all write together.
+                We believe that writing is both the way in and the way through, that when we write we discover who we
+                are, what we need and how we want to live.
+                We believe in confidence-building from the inside out, affirming the brilliance of each young woman and
+                the vulnerability of each young man.
+                We believe that writing cultivates self-knowledge which cultivates self-esteem which is the foundation
+                of all true happiness and success.
+                We believe intuitive young people will become the leaders and change-makers our world needs most.
+                We envision a world in which everyone has the confidence to direct their own life—to realize their
+                value,
+                trust their voice and declare what they know to be true.
             </div>
         </div>
     </div>
@@ -44,7 +69,8 @@
     <div id="mailing_list">
         <div id="socialMedia1">
             <h2>Join our mailing list!</h2>
-            <p>While we are headquartered in the San Francisco Bay Area, most of our classes meet on Zoom and are available all over the world!</p>
+            <p>While we are headquartered in the San Francisco Bay Area, most of our classes meet on Zoom and are
+                available all over the world!</p>
             <div>You can also follow our:</div>
             <ul id="mediaContacts">
                 <li><a href="#">Blog</a></li>
@@ -52,7 +78,8 @@
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">Linkedin</a></li>
             </ul>
-            <p>You can also read more about our Leadership Team and reach out to them directly or join our mailing list here:</p>
+            <p>You can also read more about our Leadership Team and reach out to them directly or join our mailing list
+                here:</p>
         </div>
 
         <div id="mailContact">
@@ -76,7 +103,7 @@
                 <input type="text" id="message" name="message">
             </div>
             <button type="button" id="sendButton">Send</button>
-            
+
             <!-- <div id="messageButton">
             </div> -->
         </div>
@@ -95,4 +122,5 @@
         </ul>
     </div>
 </body>
+
 </html>

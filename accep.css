@@ -35,6 +35,22 @@ html{
     font-weight: bold;
 }
 
+/* Accounts */
 #accounts{
-    
+    background-color: pink;
+    justify-items: center;
+}
+
+#students_accounts{
+    display: grid;
+    align-items: center;
+    /* column-gap: 10px; */
+    row-gap: 10px;
+    width: 95%;
+}
+
+#students_accounts div{
+    border: 1px solid black;
+    font-size: 1.1em;
+    background-color: white;
 }

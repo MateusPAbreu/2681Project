@@ -1,0 +1,90 @@
+body{
+    height: 95%;
+}
+
+#header{
+    background-color: hsl(264, 68%, 78%);
+}
+
+#titles{
+    text-align: center;
+}
+
+/* List of books */
+#books_slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: radial-gradient( hsl(328, 67%, 100%), hsl(288, 68%, 78%), hsl(300, 74%, 68%), hsl(316, 67%, 57%));
+}
+
+#books{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    /* width: 300px; */
+}
+
+#books img{
+    width: 280px;
+    height: 325px;
+}
+
+#books mark{
+    background-color: pink;
+}
+
+#book1 {
+    /* position: relative; */
+    width: 800px;
+
+}
+
+#book2,
+#book3,
+#book4,
+#book5,
+#book6,
+#book7,
+#book8 {
+    visibility: hidden;
+    position: absolute;
+    width: 800px;
+}
+
+.book_body{
+    width: 600px;
+    height: 220px;
+}
+
+#books a{
+    text-decoration: none;
+    color: yellow;
+}
+
+#books a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* Buttons */
+#back,
+#forward {
+    z-index: 2;
+    /* position: fixed; */
+}
+#back button, #forward button{
+    /* border: none; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+}
+
+/* Footer */
+#footer{
+    margin-top: 25px;
+    background-color: white;
+}

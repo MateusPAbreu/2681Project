@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(hsl(204, 79%, 73%), hsl(248, 79%, 73%), hsl(279, 79%, 73%), hsl(301, 79%, 73%));
+    background-repeat: no-repeat;
+    height: 99%;
+}
+
+#header h1, #header h2, #text_body h3{
+    display: flex;
+    justify-content: center;
+    /* background-color: hsl(56, 94%, 56%); */
+}
+
+#header h2{
+    text-shadow: 1px 1px 1px pink;
+}
+
+#text_body{
+    background-color:rgb(241, 231, 39);
+}
+
+#text_body p{
+    font-size: 1.4em;
+}
+
+#text_body h3{
+    text-shadow: 1px 1px 1px pink;
+    text-decoration: underline;
+}
+
+#classes{
+    margin-top: 3em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#small_group, #coaching{
+    border-style: solid;
+    background-color: white;
+}
+
+#talk_further{
+    margin-top: 7em;
+    font-size: 1.1em;
+}

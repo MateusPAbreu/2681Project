@@ -18,6 +18,11 @@ body{
     flex-wrap: wrap;
 }
 
+/* Navbar */
+#navbar{
+    display: none;
+}
+
 /* Links */
 #links{
     /* background-color: rgb(255, 0, 255); */
