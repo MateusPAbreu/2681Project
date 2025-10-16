@@ -6,27 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Acceptances</title>
     <link href="style.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
     <link href="accep.css" rel="stylesheet">
     <script src="index.js"></script>
 </head>
 
 <body>
-    <button id="collapsible" onclick="callNavbar();"><img src="images/hamburger-menu.webp"></button>
-    <div id="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="acceptances.html">Acceptances</a></li>
-            <li><a href="benefits.html">Benefits</a></li>
-            <li><a href="book.html">Book</a></li>
-            <li><a href="impact.html">Impact</a></li>
-            <li><a href="offer.html">Offer</a></li>
-            <li><a href="published_writing.html">Published Writing</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="tuition.html">Tuition</a></li>
-        </ul>
+ <div id="header_navbar">
+        <div id="links">
+            <div>
+                <!-- <a id="coursesLinks" href="#">Programs</a>
+                <input type="search" id="searchInput" /> -->
+                <button id="collapsible" onclick="callNavbar();"><img src="images/hamburger-menu.webp"></button>
+            </div>
+            
+            <div id="navbar">
+                <ul id="navbar_list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li id="prog_hidden">Programs</li>
+                    <ul id="programs" hidden>
+                        <li><a href="programs/collegeEssaySupport.html">College Essay Support</a></li>
+                        <li><a href="programs/kids.html">Kids</a></li>
+                        <li><a href="programs/story_coaching.html">Story Coaching</a></li>
+                        <li><a href="programs/teen.html">Teen</a></li>
+                        <li><a href="programs/tuition.html">Tuition</a></li>
+                        <li><a href="programs/twentyplus.html">20+</a></li>
+                    </ul>
+                    <li><a href="acceptances.html">Acceptances</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="impact.html">Impact</a></li>
+                    <li><a href="offer.html">Offer</a></li>
+                    <li><a href="published_writing.html">Published Writing</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="tuition.html">Tuition</a></li>
+                    <li id="big_pic_hidden">Bigger Picture</li>
+                    <ul id="big_picture" hidden>
+                        <li><a href="bigpicture/greatbooks.html">Great Books</a></li>
+                        <li><a href="bigpicture/greatwomen.html">Great Women</a></li>
+                        <li><a href="bigpicture/intuition.html">intuition</a></li>
+                        <li><a href="bigpicture/intuitiveintel.html">Intuitive Intelligence</a></li>
+                        <li><a href="bigpicture/lifechanging.html">Life Changing</a></li>
+                        <li><a href="bigpicture/vsai.html">vs AI</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div id="header">

@@ -18,11 +18,6 @@ body{
     flex-wrap: wrap;
 }
 
-/* Navbar */
-#navbar{
-    display: none;
-}
-
 /* Links */
 #links{
     /* background-color: rgb(255, 0, 255); */
@@ -34,10 +29,10 @@ body{
     margin: 0px 5px 0px 5px;
 }
 
-#collapsible img{
+/* #collapsible img{
     height: 15px;
     width: 15px;
-}
+} */
 
 /* Intro */
 #introduction{

@@ -1,0 +1,57 @@
+body {
+    position: relative;
+}
+
+#header_navbar {
+    position: absolute;
+    z-index: 1;
+    background-color: hsl(58, 98%, 58%);
+    border-radius: 10px;
+}
+
+#navbar {
+    /* position: absolute; */
+    display: none;
+    padding-right: 0.3em;
+    background-color: hsl(58, 98%, 58%);
+    border-radius: 10px;
+}
+
+#collapsible img{
+    height: 15px;
+    width: 15px;
+}
+
+#navbar_list li {
+    margin-top: 0.8em;
+}
+
+#navbar_list #programs li, #navbar_list #big_picture li{
+    margin-top: 0;
+}
+
+#navbar_list a {
+    text-decoration: none;
+}
+
+#navbar_list li{
+    list-style-type: none;
+    color: hsl(273, 98%, 60%);
+    /* color taken from here: https://www.flatuicolorpicker.com/purple-hsl-color-model/*/
+}
+
+#prog_hidden:hover+#programs {
+    display: block;
+}
+
+#programs:hover {
+    display: block;
+}
+
+#big_pic_hidden:hover+#big_picture {
+    display: block;
+}
+
+#big_picture:hover {
+    display: block;
+}

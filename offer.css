@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(rgb(255,192,203), rgb(255,182,193), rgb(255,20,147));
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 #offer, #big_reasons, #belief{
