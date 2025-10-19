@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+    width: 99%;
+}
+
+
+/* List */
+#list{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    padding: 20px 0px 20px 0px;
+}
+
+#list img{
+    display: flex;
+    justify-content: end;
+    width: 70%;
+}
+
+#list img:hover{
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}
+
+#list li{
+    padding-bottom: 20px;
+}
+
+li a:hover, #header a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+/* Buttons */
+#free_class{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    background-image: url(../images/flowers_background.jpg);
+    background-position: center;
+    background-size: 70%;
+}
+
+#free_class a{
+    text-decoration: none;
+}
+
+#free_class button:hover, a:hover{
+    color: white;
+    background-color: rgb(255, 153, 255);
+}

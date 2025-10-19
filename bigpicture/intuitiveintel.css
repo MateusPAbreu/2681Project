@@ -1,0 +1,18 @@
+#intuitive_body{
+    display: flex;
+    flex-direction: row;
+}
+
+#intuitive_body img{
+    display: flex;
+    width: 300px;
+    justify-content: end;
+}
+
+#intuitive_text{
+    background-color: pink;
+}
+
+#intuitive_text p{
+    margin-bottom: 10px;
+}

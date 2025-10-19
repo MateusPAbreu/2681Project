@@ -1,0 +1,25 @@
+html{
+    height: 100%;
+    width: 99%;
+}
+
+#book_body, #book_list{
+    background-color: pink;
+    padding: 15px 0px 15px 10px;
+    /* text-align: center; */
+}
+
+#book_list{
+    text-align: center;
+}
+
+#book_list li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+mark{
+    background-color: blue;
+}
+
+/* I considered doing so that it would be necessary to hover over the title to show the list, but it felt against the intention of the page */

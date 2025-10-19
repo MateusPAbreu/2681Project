@@ -1,0 +1,19 @@
+#vsai_body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 40px 0px;
+    background-color: pink;
+}
+
+#vsai_body img{
+    width: 500px;
+}
+
+#vsai_text{
+    width: 60%;
+    margin-right: 35px;
+}
+
+#vsai_text p{
+    margin-bottom: 10px;
+}
