@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px) {
+
+    #book_body,
+    #book_list {
+        background-color: pink;
+        padding: 0px;
+        /* text-align: center; */
+    }
+
+    #book_list {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+
+    #book_body,
+    #book_list {
+        background-color: pink;
+        padding: 0px;
+        /* text-align: center; */
+    }
+
+    #book_list {
+        text-align: left;
+    }
+}

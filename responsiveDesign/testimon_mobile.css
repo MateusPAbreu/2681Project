@@ -1,0 +1,14 @@
+@media only screen and (max-width: 480px) {
+    #header_links{
+        display: none;
+    }
+
+    #testimonials{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #testimonials #parents, #testimonials #students{
+        width: 95%;
+    }
+}

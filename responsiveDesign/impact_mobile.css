@@ -1,0 +1,28 @@
+@media only screen and (max-width: 480px) {
+    #impact {
+        background-image: none;
+    }
+
+    #feel_more {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #feel_more div {
+        width: 95%;
+        margin: 0;
+        
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    html{
+        /* height: 110%; */
+        background-repeat: no-repeat;
+    }
+
+    #footer{
+        margin-top: 1em;
+    }
+}

@@ -1,0 +1,50 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    #introduction {
+        font-size: 1em;
+    }
+
+    #statement {
+        font-size: 1em;
+        background-repeat: no-repeat;
+    }
+
+    #mailing_list {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reset,
+    #submit {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    #introduction {
+        font-size: 1em;
+    }
+
+    #statement {
+        font-size: 1em;
+        background-repeat: no-repeat;
+    }
+
+    #mailing_list {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reset,
+    #submit {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+}

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 480px) {
+    #header {
+        background-image: none;
+        background-color: aquamarine;
+    }
+
+    #intuition {
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    #header h2 {
+        margin-left: 2em;
+    }
+}

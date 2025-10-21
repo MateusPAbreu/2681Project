@@ -1,0 +1,15 @@
+@media only screen and (max-width: 480px) {
+    #cover_img, #image_cards{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    #cover_img img{
+        width: 95%;
+    }
+    
+    #image_cards{
+        display: none;
+    }
+}

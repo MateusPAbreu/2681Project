@@ -1,0 +1,85 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(255, 192, 203);
+    }
+
+    #benefits {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: static;
+        transition: none;
+        transform-style: none;
+    }
+
+    #for_parents .front,
+    #for_parents .back,
+    #for_teens .front,
+    #for_teens .back {
+        position: static;
+        backface-visibility: visible;
+    }
+
+    #for_parents .back,
+    #for_teens .back {
+        background-color: pink;
+        transform: rotateY(0deg);
+    }
+
+    #for_parents,
+    #for_teens {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #free_class {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    body {
+        background-color: rgb(255, 192, 203);
+    }
+
+    #benefits {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* position: static;
+        transition: none;
+        transform-style: none; */
+    }
+
+    #for_parents .front,
+    #for_parents .back,
+    #for_teens .front,
+    #for_teens .back {
+        position: static;
+        backface-visibility: visible;
+    }
+
+    #for_parents .back,
+    #for_teens .back {
+        background-color: pink;
+        transform: rotateY(0deg);
+    }
+
+    #for_parents,
+    #for_teens {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #free_class {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

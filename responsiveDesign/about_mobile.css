@@ -1,0 +1,150 @@
+/* Responsive design */
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    /* I got the media query below from:  */
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        /* position: fixed; */
+        /* width: 80%; */
+    }
+
+    #intro:hover {
+        cursor: none;
+        transform: none;
+    }
+
+    #elizabeth_intro img {
+        display: none;
+    }
+
+    #elizabeth_intro {
+        font-size: 1em;
+    }
+
+    #elizabeth_account {
+        /* Too much text to be displayed in mobile */
+        display: none;
+    }
+
+    #contact_button {
+        margin-top: 4em;
+        margin-bottom: 1em;
+        background-color: aqua;
+    }
+
+    #abigail_img {
+        display: none;
+    }
+
+    #abigail {
+        outline: none;
+        background-color: hsl(265, 100%, 86%);
+    }
+
+    #abigail_text {
+        /* width: 75%; */
+        font-size: 0.9em;
+    }
+
+    #advisory_team,
+    #team {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5,
+    #slide6 {
+        visibility: visible;
+        position: static;
+    }
+
+    #slide1,
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5,
+    #slide6 {
+        width: 100%;
+    }
+
+    /* Buttons */
+    #back button,
+    #forward button {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 719px) {
+    #intro {
+        display: flex;
+        flex-direction: column;
+        /* position: fixed; */
+        /* width: 80%; */
+    }
+
+    #intro:hover {
+        cursor: none;
+        transform: none;
+    }
+
+    #elizabeth_intro {
+        width: 95%;
+        height: 95%;
+    }
+
+    #elizabeth_intro img {
+        display: none;
+    }
+
+    #elizabeth_intro {
+        font-size: 1em;
+    }
+
+    #elizabeth_account {
+        /* Too much text to be displayed in mobile */
+        display: none;
+    }
+
+    #abigail_img {
+        display: none;
+    }
+
+    #abigail {
+        display: flex;
+        flex-direction: row;
+        outline: 3px solid black;
+        padding: 0px 15px 0px 15px;
+    }
+
+    #abigail_text {
+        text-wrap: wrap;
+    }
+
+    #team img {
+        display: none;
+    }
+
+    #team{
+        width: 100%;
+    }
+
+    #slide1 {
+        position: relative;
+   
+    }
+
+    #slide2,
+    #slide3,
+    #slide4,
+    #slide5,
+    #slide6 {
+        visibility: hidden;
+        position: absolute;
+    }
+}
