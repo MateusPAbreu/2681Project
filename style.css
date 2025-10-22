@@ -78,6 +78,17 @@ body {
     text-decoration: none;
 }
 
+#mediaContacts a {
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+#mediaContacts a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 0);
+}
+
 #mailContact {
     padding-top: 20px;
     ;
@@ -87,6 +98,14 @@ body {
     flex-direction: column;
     align-items: center;
     /* flex-wrap: wrap; */
+}
+
+#mailContact input:focus:valid {
+    background-color: rgb(127, 255, 0);
+}
+
+#mailContact input:focus:invalid {
+    background-color: rgb(220, 20, 60);
 }
 
 #fullName,
